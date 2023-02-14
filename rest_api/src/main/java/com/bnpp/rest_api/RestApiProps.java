@@ -19,7 +19,7 @@ public class RestApiProps
     @Value("${app.description}")
     private String description;
 
-    @Value("${app.datasource.url}")
+    @Value("${spring.datasource.url}")
     private String url;
     
 }
